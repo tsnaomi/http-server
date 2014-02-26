@@ -7,7 +7,8 @@ import socket
 import unittest
 
 
-class test_receive(unittest.TestCase):
+class test_receive(unittest.TestCase):  # Attribution: Matt D. in collaboration
+                                        # with Luke P. and James W.
     """ Tests receive() method in http_server.py """
     def setUp(self):
         self.empty_message = ''
