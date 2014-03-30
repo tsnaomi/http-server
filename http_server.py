@@ -1,10 +1,15 @@
 #!usr/bin/env Python
 
+import socket
+
 from email.utils import formatdate
 from mimetypes import guess_type
 from os import listdir
 from os.path import isfile, isdir
-import socket
+
+# attributions: https://github.com/risingmoon
+#               https://github.com/markcharyk
+#               https://github.com/geekofalltrades
 
 
 def http_server():
